@@ -25,7 +25,7 @@ function countSheeps(list) {
 
     if (sheepCount > 0)
     {
-        return sheepCount;
+        return `There are ${sheepCount} sheep in total`;
     }
 
     if (sheepCount == 0)
@@ -36,4 +36,4 @@ function countSheeps(list) {
  }
 
 
- console.log(countSheeps(test));
+ console.log(countSheeps(list2));
