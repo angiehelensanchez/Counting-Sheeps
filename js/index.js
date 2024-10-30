@@ -1,10 +1,16 @@
 let list1 = [ true,  true,  true,  false, true,  true,  true,  true , true,  false, true,  false, true,  false, false, true , true,  true,  true,  true , false, false, true,  true ]
 let list2 = [ false, false, false ]
+let list3 = []
+let test = "12"
 
 
 function countSheeps(list) {
 
     let sheepCount=0;
+
+    if (list.length == 0){
+        return "Please enter values (true, false)"
+    }
 
     for (var i = 0; i< list.length; i++) {
         if (list[i])
@@ -30,4 +36,4 @@ function countSheeps(list) {
  }
 
 
- console.log(countSheeps(list1));
+ console.log(countSheeps(test));
